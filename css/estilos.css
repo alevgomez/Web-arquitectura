@@ -1,0 +1,400 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+
+font-family: "Poppins-Regular";
+
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../assets/Poppins/Poppins-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: "Poppins-Semibold";
+    src: url(../assets/Poppins/Poppins-SemiBold.ttf);
+    
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url(../assets/Poppins/Poppins-Light.ttf);
+    
+}
+
+h1 {
+    font-family: "Poppins-Semibold";
+    font-size: 3rem;
+    padding: 6rem;
+    text-align: left;
+
+    color:rgb(255, 255, 255)
+
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: "Poppins-Regular";
+
+    color:rgb(0, 0, 0)
+
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 0.8rem;
+    font-family: "Poppins-Regular";
+    color: beige;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: "Poppins-Light";
+
+}
+
+
+nav {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul {
+    margin-right: 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.menu li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    border-radius: 10%;
+    color: rgb(255, 255, 255)
+    
+}
+
+.logo img{
+    width: 50px;
+    padding: 5px;
+    margin: auto;
+    padding: 5px;
+}
+
+
+
+.section1 {
+    background-image: url(../assets/images/IMG-20220302-WA0019.jpg);
+    height: 700px;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ProyectoSection1 {
+    background-image: url(../assets/images/topography.jpg);
+    height: 400px;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    
+}
+
+.ServiciosSection {
+    background-image: url(../assets/images/topography.jpg);
+    height: 400px;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    
+}
+.TituloServicios {
+    margin-top: 250px;
+    width: 50vw;    
+}
+
+h4{
+    font-family: "Poppins-Light";
+    color: rgb(226, 224, 224);
+    text-align: center;
+    padding: 40px;
+}
+
+.section2 img{
+    opacity: 1;
+    width: 400px;
+    padding: 0%;
+    margin: 0;
+    transition: all 2s;
+
+}
+
+.Imagen1 img{
+    width: 400px;
+    transition: all 2s;
+}
+.Imagen1:hover{
+    transform: scale(1.1, 1.1);
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.Imagen2 img{
+    width: 400px;
+    transition: all 2s;
+}
+.Imagen2:hover{
+    transform: scale(1.1, 1.1);
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.Imagen3 img{
+    width: 400px;
+    transition: all 2s;
+}
+.Imagen3:hover{
+    transform: scale(1.1, 1.1);
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+
+.section2 img{
+    opacity: 1;
+    width: 350px;
+    padding: 0%;
+    transition: all 2s;
+
+}
+.contenedorSection2{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.boxSection2 {
+    width: 350px;
+    margin: 20px;
+
+  
+}
+
+.contenedorfooter {
+    background-color: black;
+    width: 100vw;
+    display: flex;
+
+}
+
+.grupo1 {
+   
+    align-items: flex-start;
+    margin: 20px;
+}
+ .grupo1 img{
+    width: 150px;
+    
+ }
+
+ .contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .contacto h5 {
+    color: white;
+ }
+
+ .groupCont {
+    display: flex;
+ }
+
+ .grupo2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+ }
+
+ .grupo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 500px;
+ }
+
+
+ .social{
+    display: flex;
+ }
+
+ .social img {
+    width: 40px;
+    margin-left: 20px;
+ }
+
+
+.grupo4 {
+    margin-top: 250px;
+    width: 50vw;
+}
+
+.contenedor2 {
+    margin: 20px;
+}
+
+.contenedor2 .opcion1 {
+    margin: 20px
+}
+.contenedor2 .opcion2 {
+    margin: 20px
+}.contenedor2 .opcion3 {
+    margin: 20px
+}
+
+.grupo5  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 40vw;
+}
+
+.opcion1 {
+    background-color: rgb(192, 190, 190);
+}
+.opcion2 {
+    background-color: rgb(122, 122, 122);
+}
+
+.opcion3 {
+background-color: rgb(77, 75, 75);    
+}
+
+-------------------------------
+.contenedorproyecto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedorproyecto figure{
+   position:relative;
+   height: 250px;
+   width: 350px;
+   overflow: hidden;
+}
+.contenedorproyecto figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+
+}
+.contenedorproyecto figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedorproyecto figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedorproyecto figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedorproyecto figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedorproyecto figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedorproyecto figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+------------------------
+
+.sectionProfiles{
+    display: flex;
+}
+
+.contenedorSectionProfiles{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxSectionProfiles {
+    width: 300px;
+    margin: 50px;
+}
+
+
+.Profile1 img {
+    width: 300px;
+    border-radius: 150px;
+}
