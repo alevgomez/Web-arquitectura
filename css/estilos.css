@@ -398,3 +398,15 @@ background-color: rgb(77, 75, 75);
     width: 300px;
     border-radius: 150px;
 }
+
+iframe {
+    border-radius: 5px;
+}
+.contactoForm {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+}
+
+
