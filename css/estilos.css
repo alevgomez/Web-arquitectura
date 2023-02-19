@@ -427,7 +427,7 @@ iframe {
     transition: var(--bs-navbar-toggler-transition);
 }
 [type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: button;
+    -webkit-apperance: button;
 }
 
 .navbar-collapse collapse show{
