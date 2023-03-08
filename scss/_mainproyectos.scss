@@ -1,0 +1,114 @@
+.ProyectoSection1 {
+    background-image: url(../assets/images/topography.jpg);
+    height: 300px;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    .grupo4 {
+        margin-top: 150px;
+        width: 50vw;
+        h1 {
+         font-family: "Poppins-Semibold";
+         font-size: 2.5rem;
+         padding: 2.5rem;
+         text-align: left;
+         color: rgb(255, 255, 255);
+         line-height: 1.2;
+        }
+    }
+    .grupo5  {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 40vw;
+        p {
+            color: #fff;
+        }
+    }   
+}
+.section2{
+    .section2 img{
+        opacity: 1;
+        width: 400px;
+        padding: 0%;
+        margin: 0;
+        transition: all 2s;
+    
+    }
+    .grupo2 {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: center;
+        .contenedorproyecto{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .contenedorproyecto figure{
+            position:relative;
+            height: 300px;
+            width: 450px;
+            overflow: hidden;
+         }
+         .contenedorproyecto figure img{
+             width: 100%;
+             height: 100%;
+             transition: all 400ms ease-out;
+         
+         }
+         .contenedorproyecto figure .capa{
+             position: absolute;
+             top: 0;
+             width: 100%;
+             height: 100%;
+             background: rgba(34, 34, 34, 0.7);
+             transition: all 400ms ease-out;
+             opacity: 0;
+             visibility: hidden;
+             text-align: center;
+         }
+         .contenedorproyecto figure:hover > .capa {
+            opacity: 1;
+            visibility: visible;
+        }
+        .contenedorproyecto figure:hover > .capa h3{
+            margin-top: 70px;
+            margin-bottom: 15px;
+        }
+        .contenedorproyecto figure:hover > img{
+            transform: scale(1.3);
+        }
+        .contenedorproyecto figure .capa h3{
+            color: #fff;
+            font-weight: 400;
+            margin-bottom: 120px;
+            transition: all 400ms ease-out;
+             margin-top: 30px;
+        }
+        .contenedorproyecto figure .capa p{
+            color: #fff;
+            font-size: 15px;
+            line-height: 1.5;
+            width: 100%;
+            max-width: 220px;
+            margin: auto;
+        }
+     }
+    
+}
+
+
+@media (max-width: 490px) {
+    .ProyectoSection1{
+    .grupo4{
+        margin-top: 0px;
+    }
+}        
+}

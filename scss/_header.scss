@@ -1,0 +1,39 @@
+header{
+    background-color: #000000;
+    .logonav {
+     width: 50px;
+     padding: 5px;
+     margin: auto;
+     padding: 5px;
+    }
+    .navbar-collapse collapse show{
+     background-color: rgba(255, 255, 255, 0.404);
+     display: flex;
+     justify-content: flex-end;
+    }
+    .navbar-collapse {
+     flex-basis: 100%;
+     flex-grow: 1;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.705);
+     justify-content:flex-end
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+     --bs-navbar-nav-link-padding-x: 0.3rem;
+     --bs-navbar-toggler-padding-y: 0.3rem;
+      margin-right: 10px;
+    }
+    .navbar-nav{
+     display: flex;
+     justify-content: space-between;
+    }
+    .nav-item a:hover{
+     font-weight: bold;
+     text-decoration: underline;
+     border-radius: 10%;
+     color: rgb(255, 255, 255)
+    }
+    #hambMenu {
+     color: rgba(255, 255, 255, 0.726);
+    }
+}

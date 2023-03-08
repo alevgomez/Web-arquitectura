@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@mixin cajaimg {
+    width: 400px;
+    transition: all 2s;
+    &:hover{
+        transform: scale(1.1, 1.1);
+        border-radius: 20px;
+        opacity: 0.2;
+    }
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../assets/Poppins/Poppins-Regular.ttf);
+ }
+   @font-face {
+    font-family: "Poppins-Semibold";
+    src: url(../assets/Poppins/Poppins-SemiBold.ttf);
+ }
+   @font-face {
+    font-family: "Poppins-Light";
+    src: url(../assets/Poppins/Poppins-Light.ttf);
+}
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+   font-family: "Poppins-Regular";
+}
+@import "header";
+main{
+    .section1 {
+        background-image: url(../assets/images/IMG-20220302-WA0019.jpg);
+        height: 700px;
+        width: 100vw;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h1 {
+            font-family: "Poppins-Semibold";
+            font-size: 2.5rem;
+            padding: 2.5rem;
+            text-align: left;
+            color: rgb(255, 255, 255);
+           }
+        h2 {
+            font-size: 2rem;
+            margin-left: 3rem;
+            font-family: "Poppins-Semibold";
+            color:rgb(255, 255, 255)
+        }
+    }
+
+    .section2 {
+        h2 {
+            font-size: 2rem;
+            margin-left: 2rem;
+            font-family: "Poppins-Semibold";
+            color:rgb(56, 56, 56)
+        }
+        .section2 img{
+            opacity: 1;
+            width: 400px;
+            padding: 0%;
+            margin: 0;
+            transition: all 2s;
+        }
+        .contenedorSection2{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            .boxSection2 {
+                width: 350px;
+                margin: 20px;
+
+                @mixin cajaimagen {
+
+                }
+                .Imagen1 img{
+                    width: 400px;
+                    transition: all 1s;
+                    &:hover {
+                            transform: scale(1.1, 1.1);
+                            opacity: 0.2;
+                    }
+                }
+                .Imagen2 img{
+                    width: 400px;
+                    transition: all 1s;
+                    &:hover{
+                    transform: scale(1.1, 1.1);
+                    opacity: 0.2;
+                    }
+                }
+                .Imagen3 img{
+                    width: 400px;
+                    transition: all 1s;
+                    &:hover{
+                    transform: scale(1.1, 1.1);
+                    opacity: 0.2;
+                    }
+                }
+            }
+        } 
+    
+    }
+    
+    .section3 {
+        h2 {
+            font-size: 2rem;
+            margin-left: 3rem;
+            font-family: "Poppins-Semibold";
+            color:rgb(56, 56, 56)
+        }
+        .carousel-inner {
+            padding:80px
+        }
+        .carousel-inner h5{
+            text-align: center;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+            padding: 0rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            font-family: "Poppins-Light";
+            color: rgb(46, 46, 46);
+            text-align: center;
+        }
+    }
+}
+
+@import "footer";
+@import "mainservicios";
+@import "mainproyectos";
+@import "mainnosotros";
+@import "maincontacto"
+
